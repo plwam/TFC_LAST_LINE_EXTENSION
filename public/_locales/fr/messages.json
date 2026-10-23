@@ -1,0 +1,160 @@
+{
+  "extensionName": {
+    "message": "Exam Surveillance Extension",
+    "description": "Nom de l'extension."
+  },
+  "extensionDescription": {
+    "message": "Surveillance d'examen : signale les changements d'onglet, navigations et environnements suspects au SDK ExamSDK.",
+    "description": "Description affichée dans le gestionnaire d'extensions."
+  },
+  "popupTitle": {
+    "message": "Exam Surveillance"
+  },
+  "statusNoSession": {
+    "message": "Aucune session active"
+  },
+  "statusActive": {
+    "message": "Session active"
+  },
+  "versionLabel": {
+    "message": "Version"
+  },
+  "languageLabel": {
+    "message": "Langue"
+  },
+  "languageFr": {
+    "message": "Français"
+  },
+  "languageEn": {
+    "message": "Anglais"
+  },
+  "enabledLabel": {
+    "message": "Extension activée hors session"
+  },
+  "debugLabel": {
+    "message": "Journal de débogage"
+  },
+  "testHostsLabel": {
+    "message": "Autoriser les hôtes de test"
+  },
+  "devBuildLabel": {
+    "message": "Version de développement"
+  },
+  "allowlistHeading": {
+    "message": "Liste blanche"
+  },
+  "allowlistCount": {
+    "message": "$1 hôte(s)"
+  },
+  "allowlistNever": {
+    "message": "jamais récupérée"
+  },
+  "allowlistUpdated": {
+    "message": "mise à jour : $1"
+  },
+  "refreshAction": {
+    "message": "Actualiser"
+  },
+  "refreshDone": {
+    "message": "Liste actualisée."
+  },
+  "refreshFailed": {
+    "message": "Échec de l'actualisation."
+  },
+  "notifEnabledTitle": {
+    "message": "Surveillance réactivée"
+  },
+  "notifEnabledBody": {
+    "message": "L'extension se réactivera sur les domaines d'examen enregistrés."
+  },
+  "notifDisabledTitle": {
+    "message": "Surveillance désactivée"
+  },
+  "notifDisabledBody": {
+    "message": "L'extension ne s'activera plus sur les domaines d'examen."
+  },
+  "badgeActive": {
+    "message": "REC"
+  },
+  "logAllowlistFetched": {
+    "message": "Liste blanche récupérée ($1 hôte(s))."
+  },
+  "logAllowlistFailed": {
+    "message": "Échec de récupération de la liste blanche : $1"
+  },
+  "logAllowlistStale": {
+    "message": "Cache de la liste blanche périmé, rafraîchissement en tâche de fond."
+  },
+  "logHostAllowed": {
+    "message": "Hôte autorisé : $1"
+  },
+  "logHostDenied": {
+    "message": "Hôte refusé : $1"
+  },
+  "logSessionStarted": {
+    "message": "Session démarrée (langue $1)."
+  },
+  "logSessionEnded": {
+    "message": "Session terminée."
+  },
+  "logEventEmitted": {
+    "message": "Événement émis : $1"
+  },
+  "logHeartbeat": {
+    "message": "Heartbeat d'extension envoyé."
+  },
+  "logIgnoredMessage": {
+    "message": "Message ignoré (origine, source ou type invalide) : $1"
+  },
+  "logEnabled": {
+    "message": "Extension activée hors session."
+  },
+  "logDisabled": {
+    "message": "Extension désactivée hors session."
+  },
+  "logDebugOn": {
+    "message": "Journal de débogage activé."
+  },
+  "logDebugOff": {
+    "message": "Journal de débogage désactivé."
+  },
+  "logTestHostsOn": {
+    "message": "Hôtes de test autorisés (développement uniquement)."
+  },
+  "logTestHostsOff": {
+    "message": "Hôtes de test refusés."
+  },
+  "logEnvironmentSuspicious": {
+    "message": "Environnement suspect : $1"
+  },
+  "logTabLost": {
+    "message": "Onglet de session introuvable, session clôturée."
+  },
+  "logNoSession": {
+    "message": "Message reçu sans session active."
+  },
+  "logBridgeReady": {
+    "message": "Pont initialisé sur $1"
+  },
+  "logBridgeHandshake": {
+    "message": "Poignée de main reçue."
+  },
+  "logPageEnvironment": {
+    "message": "Analyse de l'environnement de la page terminée."
+  },
+  "logContentLoaded": {
+    "message": "Script de page autorisé à s'exécuter."
+  },
+  "logEventRejected": {
+    "message": "Événement refusé par le filtre de minimisation : $1"
+  },
+  "logEventForwardFailed": {
+    "message": "Échec de transmission de l'événement $1"
+  },
+  "logHeartbeatFailed": {
+    "message": "Échec de l'envoi du heartbeat d'extension."
+  },
+  "logBackgroundUnavailable": {
+    "message": "Extension rechargée ou indisponible : rechargez la page d'examen."
+  }
+}

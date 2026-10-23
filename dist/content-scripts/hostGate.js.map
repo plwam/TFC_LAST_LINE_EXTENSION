@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/content-scripts/hostGate.ts"],
+  "sourcesContent": ["void (async () => {\n  try {\n    const allowed = await chrome.runtime.sendMessage({\n      type: 'CHECK_HOST',\n      hostname: window.location.hostname,\n    });\n    if (allowed !== true) return;\n\n    const bridgeUrl = chrome.runtime.getURL('content-scripts/bridge.js');\n    const bridge = (await import(/* webpackIgnore: true */ bridgeUrl)) as {\n      init?: () => void;\n    };\n    bridge.init?.();\n  } catch {\n    /* extension recharg\u00E9e/d\u00E9sactiv\u00E9e ou contexte de page non autoris\u00E9 */\n  }\n})();\n"],
+  "mappings": ";;;AAAA,QAAM,YAAY;AAChB,QAAI;AACF,YAAM,UAAU,MAAM,OAAO,QAAQ,YAAY;AAAA,QAC/C,MAAM;AAAA,QACN,UAAU,OAAO,SAAS;AAAA,MAC5B,CAAC;AACD,UAAI,YAAY,KAAM;AAEtB,YAAM,YAAY,OAAO,QAAQ,OAAO,2BAA2B;AACnE,YAAM,SAAU,MAAM;AAAA;AAAA,QAAiC;AAAA;AAGvD,aAAO,OAAO;AAAA,IAChB,QAAQ;AAAA,IAER;AAAA,EACF,GAAG;",
+  "names": []
+}

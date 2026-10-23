@@ -1,0 +1,160 @@
+{
+  "extensionName": {
+    "message": "Exam Surveillance Extension",
+    "description": "Extension name."
+  },
+  "extensionDescription": {
+    "message": "Exam surveillance: reports tab switches, navigations and suspicious environments to the ExamSDK SDK.",
+    "description": "Description shown in the extensions manager."
+  },
+  "popupTitle": {
+    "message": "Exam Surveillance"
+  },
+  "statusNoSession": {
+    "message": "No active session"
+  },
+  "statusActive": {
+    "message": "Active session"
+  },
+  "versionLabel": {
+    "message": "Version"
+  },
+  "languageLabel": {
+    "message": "Language"
+  },
+  "languageFr": {
+    "message": "French"
+  },
+  "languageEn": {
+    "message": "English"
+  },
+  "enabledLabel": {
+    "message": "Extension enabled outside sessions"
+  },
+  "debugLabel": {
+    "message": "Debug log"
+  },
+  "testHostsLabel": {
+    "message": "Allow test hosts"
+  },
+  "devBuildLabel": {
+    "message": "Development build"
+  },
+  "allowlistHeading": {
+    "message": "Allowlist"
+  },
+  "allowlistCount": {
+    "message": "$1 host(s)"
+  },
+  "allowlistNever": {
+    "message": "never fetched"
+  },
+  "allowlistUpdated": {
+    "message": "updated: $1"
+  },
+  "refreshAction": {
+    "message": "Refresh"
+  },
+  "refreshDone": {
+    "message": "Allowlist refreshed."
+  },
+  "refreshFailed": {
+    "message": "Refresh failed."
+  },
+  "notifEnabledTitle": {
+    "message": "Monitoring re-enabled"
+  },
+  "notifEnabledBody": {
+    "message": "The extension will activate again on registered exam domains."
+  },
+  "notifDisabledTitle": {
+    "message": "Monitoring disabled"
+  },
+  "notifDisabledBody": {
+    "message": "The extension will no longer activate on exam domains."
+  },
+  "badgeActive": {
+    "message": "REC"
+  },
+  "logAllowlistFetched": {
+    "message": "Allowlist fetched ($1 host(s))."
+  },
+  "logAllowlistFailed": {
+    "message": "Allowlist fetch failed: $1"
+  },
+  "logAllowlistStale": {
+    "message": "Allowlist cache is stale, refreshing in the background."
+  },
+  "logHostAllowed": {
+    "message": "Host allowed: $1"
+  },
+  "logHostDenied": {
+    "message": "Host denied: $1"
+  },
+  "logSessionStarted": {
+    "message": "Session started (language $1)."
+  },
+  "logSessionEnded": {
+    "message": "Session ended."
+  },
+  "logEventEmitted": {
+    "message": "Event emitted: $1"
+  },
+  "logHeartbeat": {
+    "message": "Extension heartbeat sent."
+  },
+  "logIgnoredMessage": {
+    "message": "Message ignored (invalid origin, source or type): $1"
+  },
+  "logEnabled": {
+    "message": "Extension enabled outside sessions."
+  },
+  "logDisabled": {
+    "message": "Extension disabled outside sessions."
+  },
+  "logDebugOn": {
+    "message": "Debug log enabled."
+  },
+  "logDebugOff": {
+    "message": "Debug log disabled."
+  },
+  "logTestHostsOn": {
+    "message": "Test hosts allowed (development only)."
+  },
+  "logTestHostsOff": {
+    "message": "Test hosts denied."
+  },
+  "logEnvironmentSuspicious": {
+    "message": "Suspicious environment: $1"
+  },
+  "logTabLost": {
+    "message": "Session tab not found, session closed."
+  },
+  "logNoSession": {
+    "message": "Message received without an active session."
+  },
+  "logBridgeReady": {
+    "message": "Bridge initialised on $1"
+  },
+  "logBridgeHandshake": {
+    "message": "Handshake received."
+  },
+  "logPageEnvironment": {
+    "message": "Page environment analysis completed."
+  },
+  "logContentLoaded": {
+    "message": "Page script allowed to run."
+  },
+  "logEventRejected": {
+    "message": "Event rejected by the minimisation filter: $1"
+  },
+  "logEventForwardFailed": {
+    "message": "Failed to forward event $1"
+  },
+  "logHeartbeatFailed": {
+    "message": "Extension heartbeat delivery failed."
+  },
+  "logBackgroundUnavailable": {
+    "message": "Extension reloaded or unavailable: reload the exam page."
+  }
+}

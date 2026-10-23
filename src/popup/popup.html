@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Exam Surveillance</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Exam Surveillance</h1>
+      <span id="dev-badge" class="badge hidden"></span>
+    </header>
+
+    <section class="status">
+      <span id="status-dot" class="dot"></span>
+      <span id="status-text"></span>
+    </section>
+
+    <dl class="meta">
+      <div>
+        <dt id="version-label"></dt>
+        <dd id="version"></dd>
+      </div>
+      <div>
+        <dt id="language-label"></dt>
+        <dd id="language"></dd>
+      </div>
+    </dl>
+
+    <section class="options">
+      <label class="row">
+        <input type="checkbox" id="enabled" />
+        <span id="enabled-label"></span>
+      </label>
+      <label class="row">
+        <input type="checkbox" id="debug" />
+        <span id="debug-label"></span>
+      </label>
+      <label class="row hidden" id="test-hosts-row">
+        <input type="checkbox" id="test-hosts" />
+        <span id="test-hosts-label"></span>
+      </label>
+    </section>
+
+    <section class="allowlist">
+      <h2 id="allowlist-heading"></h2>
+      <p id="allowlist-info"></p>
+      <button id="refresh" type="button"></button>
+      <p id="refresh-result" class="result"></p>
+    </section>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
